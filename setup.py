@@ -25,7 +25,7 @@ setup(
     description="Loadable ICU extension for sqlite",
     py_modules=["sqlite_icu"],
     ext_modules=[icu],
-    url="http://github.com/karlb/sqlite-icu",
+    url="https://github.com/quanganhquanganh/sqlite-icu",
     long_description=long_description,
     long_description_content_type="text/markdown",
     setup_requires=['wheel'],
