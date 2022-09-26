@@ -17,7 +17,7 @@ def pkgconfig(package):
         kw.setdefault(flag_map.get(token[:2]), []).append(token[2:])
     return kw
 
-icu = Extension("icu", sources=["icu.c"], **pkgconfig("icu-uc icu-i18n"))
+icu = Extension("icu", sources=["icu.c"])
 
 setup(
     name="sqlite-icu",
